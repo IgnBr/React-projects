@@ -1,0 +1,38 @@
+.Header {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.Header > div {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+#cityForm {
+  text-align: left;
+}
+
+#login {
+  text-align: right;
+}
+
+#logo {
+  color: #c9d0d4;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 46px;
+  font-weight: 100;
+  line-height: 50px;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+  border-bottom: double #555;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#logout {
+  cursor: pointer;
+}

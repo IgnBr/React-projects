@@ -1,0 +1,7 @@
+.MainPage {
+  display: grid;
+  grid-area: content;
+  grid-template-areas: "weather dashboard";
+  grid-template-columns: 500px;
+  background-image: linear-gradient(to bottom, white, #4ac767);
+}

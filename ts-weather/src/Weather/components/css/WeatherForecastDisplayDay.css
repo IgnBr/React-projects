@@ -1,0 +1,56 @@
+.WeatherForecastDisplayDay img {
+  width: 100px;
+  height: 100px;
+}
+
+.WeatherForecastDisplayDay .grid {
+  display: grid;
+  grid-template-rows: 70px 30px;
+  width: fit-content;
+  grid-template-areas:
+    "image tempDay"
+    "image tempNight";
+}
+
+.WeatherForecastDisplayDay .gridItem {
+  width: fit-content;
+  color: black;
+  margin: 0;
+}
+
+.WeatherForecastDisplayDay .tempDay {
+  grid-area: tempDay;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.WeatherForecastDisplayDay .tempNight {
+  grid-area: tempNight;
+  font-size: 12px;
+}
+
+.WeatherForecastDisplayDay .image {
+  grid-area: image;
+  filter: invert(10%);
+}
+
+.WeatherForecastDisplayDay .weatherDetails {
+  height: 22px;
+}
+
+.WeatherForecastDisplayDay .weatherDetails > * {
+  margin: 0;
+}
+
+.WeatherForecastDisplayDay .weatherDetails > p {
+  height: 22px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.WeatherForecastDisplayDay .weatherDetails > p > img {
+  width: 22px;
+  height: 22px;
+  float: left;
+}

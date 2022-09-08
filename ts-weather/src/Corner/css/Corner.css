@@ -1,0 +1,15 @@
+.Corner {
+  height: 75px;
+  background-color: #4ac767;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 0 0 0;
+}
+
+.Corner img {
+  height: 20px;
+  width: 20px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

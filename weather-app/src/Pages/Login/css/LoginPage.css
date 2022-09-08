@@ -1,0 +1,28 @@
+.LoginPage {
+  padding-left: 33%;
+  padding-right: 33%;
+  height: 500px;
+  position: relative;
+}
+
+.labels {
+  display: inline-block;
+  width: 30%;
+}
+
+.LoginPage > form > div {
+  padding-bottom: 10%;
+}
+
+.LoginPage > form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.LoginPage > h1 {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.Dashboard {
+  margin-left: 50px;
+  margin-top: 50px;
+  grid-area: dashboard;
+  display: grid;
+  grid-template-areas:
+    "dash-title dash-title"
+    "dash-tasks dash-upcoming"
+    "dash-overview dash-right";
+  grid-template-columns: 500px;
+  grid-template-rows: 70px 300px;
+}
+
+.Dashboard > h1 {
+  grid-area: dash-title;
+}

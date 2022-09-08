@@ -1,0 +1,41 @@
+.Task {
+  display: grid;
+  grid-template-areas:
+    "icon title"
+    "icon tags";
+  grid-template-columns: 80px auto;
+  margin-bottom: 40px;
+}
+
+.Task .dueIcon {
+  grid-area: icon;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.Task .dueIcon .postfix {
+  font-size: 10px;
+}
+
+.Task .dueIcon .days {
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.Task .title {
+  margin-top: 5px;
+  grid-area: title;
+}
+
+.Task .tags {
+  grid-area: tags;
+}
+
+.Task .tags .tag {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+}

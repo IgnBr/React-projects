@@ -1,0 +1,53 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 50px;
+  height: 75px;
+  align-items: center;
+}
+
+.Header img {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.header-item {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.logo {
+  flex-grow: 2;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.logo a:link,
+a:visited {
+  color: darkgreen;
+}
+
+.date {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.avatar {
+  flex-grow: 1;
+  text-align: right;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.time {
+  color: green;
+}
+
+.timezone {
+  color: grey;
+}

@@ -1,0 +1,20 @@
+.Weekday {
+  width: 50px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.Weekday > * {
+  text-align: center;
+}
+
+.Weekday > .dayName {
+  margin-bottom: 20px;
+}
+
+.Weekday > .dayNumber {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.WeatherForecast > h1 {
+  color: #184723;
+  font-size: 15px;
+}
+
+.WeatherForecast > .btn-group button {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.WeatherForecast > .btn-group button:first-child {
+  margin-right: 10px;
+}

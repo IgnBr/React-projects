@@ -1,0 +1,28 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  display: grid;
+  grid-template-areas:
+    "corner header"
+    "sidebar content";
+  grid-template-columns: 70px auto;
+  grid-template-rows: 75px auto;
+}
+
+.Header {
+  grid-area: header;
+}
+
+.Sidebar {
+  width: fit-content;
+  grid-area: sidebar;
+}
+
+.Corner {
+  grid-area: corner;
+}

@@ -1,0 +1,18 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: #184723;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  row-gap: 50px;
+  border-radius: 0 0 0 10px;
+}
+
+.Sidebar img {
+  height: 30px;
+  width: 30px;
+  -webkit-filter: invert(100%);
+  filter: invert(70%);
+}

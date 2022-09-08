@@ -1,0 +1,18 @@
+.City > div > svg {
+  cursor: pointer;
+  color: red;
+}
+
+.City h1 {
+  display: inline;
+  margin-right: 10px;
+}
+
+.City > .WeekDay {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.City {
+  text-align: center;
+}

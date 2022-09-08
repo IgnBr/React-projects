@@ -1,0 +1,26 @@
+.WeatherToday {
+  height: 50%;
+}
+
+.WeatherToday > h1 {
+  color: #184723;
+  font-size: 15px;
+}
+
+.WeatherToday > h2 {
+  color: #4ac767;
+  font-size: 20px;
+  display: inline;
+}
+
+.WeatherToday .currentDate {
+  display: inline;
+  margin-left: 10px;
+  font-size: 10px;
+  color: grey;
+}
+
+.WeatherToday .recentWeather > img {
+  width: 100px;
+  height: 100px;
+}

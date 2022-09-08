@@ -1,0 +1,17 @@
+.Overview .MuiCircularProgress-root {
+  text-align: center;
+}
+
+.Overview > h2 {
+  text-align: left;
+}
+
+.Overview > .circle {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.Overview {
+  grid-area: dash-overview;
+}
