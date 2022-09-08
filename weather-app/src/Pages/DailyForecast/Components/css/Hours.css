@@ -1,0 +1,26 @@
+.Hours {
+    border: 5px solid #353535;
+    width: 200px;
+    height: 260px;
+    border-radius: 10%;
+}
+
+.Hours > h2 {
+    margin-top: 0%;
+}
+
+.Hours > * {
+    text-align: center;
+}
+
+.Degrees > div {
+    display: inline;
+}
+
+.Wind > div {
+    display: inline;
+}
+
+.Humidity > div {
+    display: inline;
+}

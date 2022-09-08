@@ -1,0 +1,56 @@
+.WeatherTodayDisplay img {
+  width: 100px;
+  height: 100px;
+}
+
+.WeatherTodayDisplay .grid {
+  display: grid;
+  grid-template-rows: 70px 30px;
+  width: fit-content;
+  grid-template-areas:
+    "image temp"
+    "image time";
+}
+
+.WeatherTodayDisplay .gridItem {
+  width: fit-content;
+  color: black;
+  margin: 0;
+}
+
+.temp {
+  grid-area: temp;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.time {
+  grid-area: time;
+  font-size: 12px;
+}
+
+.image {
+  grid-area: image;
+  filter: invert(10%);
+}
+
+.weatherDetails {
+  height: 22px;
+}
+
+.weatherDetails > * {
+  margin: 0;
+}
+
+.weatherDetails > p {
+  height: 22px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.weatherDetails > p > img {
+  width: 22px;
+  height: 22px;
+  float: left;
+}

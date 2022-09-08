@@ -1,0 +1,23 @@
+.WeatherForecastDisplayWeek {
+  display: flex;
+  flex-direction: row;
+}
+
+.WeatherForecastDisplayWeek .weekDay {
+  margin-right: 7px;
+}
+
+.WeatherForecastDisplayWeek .weekDay > h1 {
+  font-size: 15px;
+}
+
+.WeatherForecastDisplayWeek .weekDay > h2 {
+  font-size: 10px;
+}
+
+.WeatherForecastDisplayWeek .weekDay > img {
+  width: 30px;
+  height: 30px;
+  filter: invert(10%);
+  margin-bottom: 0;
+}

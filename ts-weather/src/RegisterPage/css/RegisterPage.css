@@ -1,0 +1,41 @@
+.RegisterPage {
+  text-align: center;
+  background-image: linear-gradient(to bottom, white, #4ac767, #184723);
+}
+
+.RegisterPage > h1 {
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #184723;
+}
+
+.RegisterPage .input,
+.email,
+.password {
+  margin-bottom: 20px;
+}
+
+.RegisterPage .input {
+  border-radius: 20px;
+  width: 400px;
+  height: 30px;
+  border-color: #4ac767;
+  margin-bottom: 0;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.RegisterPage .label {
+  display: block;
+  color: #184723;
+}
+
+.RegisterPage .button {
+  color: white;
+  margin-top: 50px;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border-color: #4ac767;
+  background-image: linear-gradient(90deg, #184723, #4ac767);
+}

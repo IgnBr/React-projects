@@ -1,0 +1,19 @@
+.DailyForecast > .Hours {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.DailyForecast {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+.DailyForecast > h2 {
+  color: red;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
